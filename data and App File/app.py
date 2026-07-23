@@ -32,7 +32,7 @@ st.set_page_config(
     initial_sidebar_state="expanded",
 )
 
-DATA_PATH = "city_day (1) (1).csv"  # rename your uploaded file to this, or update the path
+DATA_PATH = "city_day.csv"  # rename your uploaded file to this, or update the path
 DROP_COLUMNS = ["City", "Date", "AQI_Bucket", "NH3"]
 
 AQI_BUCKETS = [
